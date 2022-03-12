@@ -58,6 +58,32 @@ strong {
 }
 
 /****************** Layout ********************/
+/* form */
+input {
+  padding: .5em 1.75em;
+  border: 1px solid #404040;
+  border-radius: 4px;
+}
+
+input::placeholder {
+  text-align: center;
+}
+
+.name__input {
+  margin-bottom: .75em;
+}
+
+.btn-register {
+  text-transform: uppercase;
+  letter-spacing: 0;
+  color:#fff;
+  background-color: #F18119;
+  border:0;
+  border-radius: 5px;
+  margin-top: 1em;
+  padding: .75em 5em;
+}
+
 .container {
   width: 90%;
   max-width: 1200px;
